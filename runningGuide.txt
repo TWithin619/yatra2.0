@@ -47,3 +47,7 @@ fill credentials:- username, email (valid one) , password(doesn't show preview s
 
 super user is now created 
 
+
+
+
+
