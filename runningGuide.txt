@@ -1,0 +1,49 @@
+admin pael login credentials:
+
+---------------------------------------------------------------------------------
+username:- anmol
+pw:- yatra12345
+
+--------------------------------------------------------------------------------------
+
+running on fresh system- i.e project has been never run on this pc..
+----------------------------------------------------------------
+firstly open terminal..
+then, create virtua env:- cmd- python -m venv env
+
+navigate to env/scripts
+then cmd- activate
+
+renavigate to project root dir i.e yatra2.0
+
+now, install required packages:- pip install -r requirements.txt 
+
+now project is ready for running...
+
+python manage.py runserver
+
+your poject is running on 
+
+localhost:8000
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+if project is already use on this pc before...
+just open termial on project root,
+
+activate virtual env 
+
+run using cmd:- pyhon manage.py runserver
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+if you forgot amin credentials, or needed to create another super user or admin then:
+
+on project root directory:
+use cmd:- python manage.py createsuperuser
+fill credentials:- username, email (valid one) , password(doesn't show preview so type carefully)
+
+super user is now created 
+
